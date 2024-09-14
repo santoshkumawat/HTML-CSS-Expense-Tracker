@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, Helvetica, sans-serif;
+    background-color: #fbebce;
+    color: #01722F;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    background: #faf5e9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    /* color: #01722F; */
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #01722F;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.input-group input,
+.input-group select {
+    flex: 2;
+    padding: 10px;
+    border: 2px solid #01722F;
+    border-radius: 5px;
+    color: #01722F;
+}
+
+.button-group {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.button-group button {
+    background-color: #FFCC00;
+    color: #01722F;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.button-group button:hover {
+    background-color: #000;
+    color: #FFCC00;
+}
+
+.summary {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #01722F;
+    color: #FFCC00;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.summary h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.summary p {
+    font-size: 1.2em;
+    color: #FFCC00;
+    line-height: 2;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 2px solid #01722F;
+    text-align: center;
+}
+
+table th {
+    background-color: #01722F;
+    color: #FFCC00;
+}
+
+table td {
+    background-color: #fff;
+}
+
+table td button {
+    background-color: #E7342B;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+table td button:hover {
+    background-color: #000;
+    transform: scale(1.05);
+}
+
+/* New Style for Clear All Button */
+.clear-button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clear-button-group button {
+    background-color: #E7342B;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clear-button-group button:hover {
+    background-color: #000;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fbebce;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    color: #01722F;
+}
+
+.modal-content p {
+    color: #01722F;
+}
+
+.close-button {
+    background-color: #01722F;
+    color: #FFCC00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.close-button:hover {
+    background-color: #000;
+}
